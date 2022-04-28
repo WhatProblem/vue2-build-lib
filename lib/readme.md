@@ -19,6 +19,11 @@ Vue.use(vir-list-v2)
 ```vue
 <vir-list-v2 vmodel="demo" :options="options" labelName="名称" />
 
+<vir-list-v2 vmodel="demo" :options="options" labelName="名称">
+    <span>自定义模版名称</>
+    <span>自定义显示帮定value</>
+</vir-list-v2>
+
 export default {
     data() {
         demo: 1,
