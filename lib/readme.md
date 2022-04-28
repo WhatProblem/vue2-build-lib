@@ -33,7 +33,7 @@ export default {
 #### API
 
 | 参数 | 说明 | 类型 | 默认值 |
-| - | :- | :- | :-: | :- |
+| --- | :--- | :--- | :---: | :---- |
 | v-model | 双向绑定变量 | 基本类型 | - |
 | options | 接口返回的下拉数据列表 | 对象数组 Array<Object> | [] |
 | labelName | label 绑定的文案名称 | String | '' |
