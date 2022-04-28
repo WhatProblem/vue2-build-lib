@@ -4,8 +4,8 @@ var webpack = require('webpack')
 module.exports = {
 	entry: './lib/vir-list-v2/index.js',
 	output: {
-		path: path.resolve(__dirname, './vir-list-v2'),
-		publicPath: '/vir-list-v2/',
+		path: path.resolve(__dirname, './dist'),
+		publicPath: '/dist/',
 		filename: 'index.js',
 
 		library: 'index',
