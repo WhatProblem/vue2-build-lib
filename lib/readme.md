@@ -11,7 +11,7 @@ npm i vir-list-v2
 ```bash
 import virListV2Plugin from 'vir-list-v2';
 
-Vue.use(vir-list-v2)
+Vue.use(virListV2Plugin)
 ```
 
 #### 基本用法
