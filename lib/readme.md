@@ -33,7 +33,7 @@ export default {
 #### API
 
 | 参数 | 说明 | 类型 | 默认值 |
-| --- | :--- | :--- | :---: | :---- |
+| --- | :--- | :--- | :---: |
 | v-model | 双向绑定变量 | 基本类型 | - |
 | options | 接口返回的下拉数据列表 | 对象数组 Array<Object> | [] |
 | labelName | label 绑定的文案名称 | String | '' |
@@ -44,7 +44,8 @@ export default {
 | lineHeight | line-height | String | '30' |
 | showNum | 下拉框显示的条数 | Number | 10 |
 
-```html
+
+
 <table border="1" cellpadding="0" cellspacing="0">
 <tr>
   <th>参数</th>
@@ -107,4 +108,3 @@ export default {
   <td>10</td>
 </tr>
 </table>
-```
