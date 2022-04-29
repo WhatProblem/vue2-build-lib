@@ -20,8 +20,8 @@ Vue.use(virListV2Plugin)
 <vir-list-v2 vmodel="demo" :options="options" labelName="名称" @change="onChange" />
 
 <vir-list-v2 vmodel="demo" :options="options" labelName="名称">
-    <span>自定义模版名称</>
-    <span>自定义显示帮定value</>
+    <span>自定义模版名称</span>
+    <span>自定义显示帮定value</span>
 </vir-list-v2>
 
 export default {
